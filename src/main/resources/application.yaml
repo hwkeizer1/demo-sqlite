@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:book_db.db
+  jpa:
+    database-platform: org.sqlite.hibernate.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+
